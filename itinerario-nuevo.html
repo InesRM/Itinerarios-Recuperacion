@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mi.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/foto (2).jpg" alt="" class="logo">
+        <h1>Añadir Itinerario</h1>
+        <img src="img/perfil.png" alt="perfil" class="perfil">
+        <div class="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./mosaicoGrid.html">Favoritos</a></li>
+                <li class="breadcrumb-item"><a href="./Itinerario1.html">Mis Itienararios</a></li>
+                <li class="breadcrumb-item"><a href="./perfil.html">Mi Perfil</a></li>
+                <li class="breadcrumb-item"><a href="./index.html">Itinerarios</a></li>
+                <li class="breadcrumb-item active">Añadir Itinerarios</li>
+            </ol>
+        </div>
+    </header>
+    <nav>
+        <div class="search">
+            <input type="text" placeholder="Search..." class="search-box-input">
+            <button class="search-box-button">&#128269;</button>
+        </div>
+        <button onclick="window.location.href='./index.html'">Home</button>
+        <button onclick="window.location.href='./mosaicoGrid.html'">Favoritos</button>
+        <button onclick="window.location.href='./Itinerario1.html'">Mis Itinerarios</button>
+        <button onclick="window.location.href='./itinerario-nuevo.html'">Itinerario Nuevo</button>
+        <button onclick="window.location.href='./perfil.html'">Mi Perfil</button>
+    </nav>
+    <main>
+        <div class="panel">
+            <div class="titulo">Nuevo Itinerario</div>
+            <div>
+            </div>
+            <div class="cuerpo">
+                <form action="">
+                    <p>
+                        <label for="">Título</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="">Lugar</label>
+                        <input type="email">
+                    </p>
+                    <p>
+                        <label for="">Descripción</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <p class="input-file-wrapper">
+                        <label for="upload">Imagen</label>
+                        <input type="file" name="" id="upload">
+                    </p>
+                    <p>
+                        <button class="formulario">Itinerario Nuevo</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="image1">
+                <img src="./img/foto (13).jpg" alt="itinerario">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Ejercicio DWI @Ines 2022-2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
